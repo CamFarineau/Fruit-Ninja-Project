@@ -1,0 +1,10 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/damien/Downloads/projet/code_03/projet
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/home/damien/Downloads/projet/code_03/projet/src/local/interface/moc_myWidgetGL.cxx
+/home/damien/Downloads/projet/code_03/projet/src/local/interface/myWidgetGL.hpp
